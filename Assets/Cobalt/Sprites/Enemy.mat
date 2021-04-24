@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2138690607717776814
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 4
 --- !u!21 &2100000
 Material:
   serializedVersion: 6
@@ -20,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player
+  m_Name: Enemy
   m_Shader: {fileID: 4800000, guid: a36b7719ff0465b42ab1407d67672c5f, type: 3}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA OUTBASE8DIR_ON OUTBASEPIXELPERF_ON OUTBASE_ON
-    OUTTEX_ON _OUTLINE8DIRECTIONS_ON _OUTLINEISPIXEL_ON _OUTLINETEXTOGGLE_ON
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA OUTBASEPIXELPERF_ON OUTBASE_ON OUTDIST_ON
+    _OUTLINEDISTORTTOGGLE_ON _OUTLINEISPIXEL_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -98,7 +85,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineTex:
-        m_Texture: {fileID: 2800000, guid: 7aad8c583ef292e48b06af0d1f2fab97, type: 3}
+        m_Texture: {fileID: 2800000, guid: 74087f6d03f233e4a8a142fa01f9e5cf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -137,7 +124,7 @@ Material:
     - _Brightness: 0
     - _BumpScale: 1
     - _ChromAberrAlpha: 0.4
-    - _ChromAberrAmount: 0
+    - _ChromAberrAmount: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _ClipUvDown: 0
@@ -193,7 +180,7 @@ Material:
     - _GreyscaleOutline: 0
     - _HandDrawnAmount: 10
     - _HandDrawnSpeed: 5
-    - _HitEffectBlend: 0
+    - _HitEffectBlend: 1
     - _HitEffectGlow: 5
     - _HologramMaxAlpha: 0.75
     - _HologramMinAlpha: 0.1
@@ -221,17 +208,17 @@ Material:
     - _OffsetUvY: 0
     - _OnlyInnerOutline: 0
     - _OnlyOutline: 0
-    - _Outline8Directions: 1
-    - _OutlineAlpha: 0.921
-    - _OutlineDistortAmount: 0.5
+    - _Outline8Directions: 0
+    - _OutlineAlpha: 1
+    - _OutlineDistortAmount: 0.25
     - _OutlineDistortTexXSpeed: 5
     - _OutlineDistortTexYSpeed: 5
-    - _OutlineDistortToggle: 0
+    - _OutlineDistortToggle: 1
     - _OutlineGlow: 1.5
     - _OutlineIsPixel: 1
     - _OutlinePixelWidth: 1
     - _OutlineTexGrey: 0
-    - _OutlineTexToggle: 1
+    - _OutlineTexToggle: 0
     - _OutlineTexXSpeed: 10
     - _OutlineTexYSpeed: 0
     - _OutlineWidth: 0.004
@@ -301,8 +288,21 @@ Material:
     - _HitEffectColor: {r: 1, g: 1, b: 1, a: 1}
     - _HologramStripeColor: {r: 0, g: 1, b: 1, a: 1}
     - _InnerOutlineColor: {r: 1, g: 0, b: 0, a: 1}
-    - _OutlineColor: {r: 0.85882354, g: 0.8327888, b: 0, a: 1}
+    - _OutlineColor: {r: 0.7607843, g: 0, b: 0, a: 0.8}
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShineColor: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
+--- !u!114 &2302184669581053104
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4
