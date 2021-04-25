@@ -18,7 +18,7 @@ namespace Cobalt
 			Contents?.SetActive(true);
 			PlayerEnterScreen.Invoke();
 
-			var bc = PlayerManager.Instance.CurrentPlayer?.GetComponent<BulletCollider>();
+			var bc = PlayerManager.Instance?.CurrentPlayer?.GetComponent<BulletCollider>();
 			if (bc)
 			{
 				foreach (var manager in transform.GetComponentsInDescendents<BulletManager>())
@@ -30,7 +30,7 @@ namespace Cobalt
 
 		public void OnPlayerExitScreen()
 		{
-			var bc = PlayerManager.Instance.CurrentPlayer?.GetComponent<BulletCollider>();
+			var bc = PlayerManager.Instance?.CurrentPlayer?.GetComponent<BulletCollider>();
 			if (bc)
 			{
 				foreach (var manager in transform.GetComponentsInDescendents<BulletManager>())
