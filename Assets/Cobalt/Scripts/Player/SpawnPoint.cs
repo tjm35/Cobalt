@@ -8,12 +8,14 @@ namespace Cobalt
 	public class SpawnPoint : MonoBehaviour
 	{
 		public int ExpectedBallast = 0;
+		public int MinBallast = 0;
 
 		private void OnTriggerEnter2D(Collider2D collision)
 		{
 			if (collision.GetComponent<Player>())
 			{
 				PlayerManager.Instance.SpawnPoint = gameObject;
+				PlayerManager.Instance.State.BallastCount = Mathf.Max(PlayerManager.Instance.State.BallastCount, MinBallast);
 			}
 		}
 

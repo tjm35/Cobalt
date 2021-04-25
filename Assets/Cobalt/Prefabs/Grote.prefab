@@ -187,8 +187,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxBullets: 1023
   drawPriority: 0
-  bulletSettings: {fileID: 11400000, guid: 57b060d46d5650144b82f391005cdee1, type: 2}
-  spawnSettings: {fileID: 11400000, guid: 8a24ba26f3d8f154e8409001185010da, type: 2}
+  bulletSettings: {fileID: 11400000, guid: 7541ec3efdd46d24e8753172b6742d95, type: 2}
+  spawnSettings: {fileID: 11400000, guid: 4fb3e0d22f98f224486fcc7b7788bc03, type: 2}
   currentActiveBullets: 0
   maxActiveBullets: 0
   OnBulletDied:
