@@ -53,6 +53,9 @@ TextureImporter:
   - first:
       213: -4252380108064772809
     second: Capsule
+  - first:
+      213: 640187770688480364
+    second: Powerup_Ballast
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -601,6 +604,27 @@ TextureImporter:
       bones: []
       spriteID: 73dacd062d28cf4c0800000000000000
       internalID: -4252380108064772809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powerup_Ballast
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 39
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64af65b26762e800800000000000000
+      internalID: 640187770688480364
       vertices: []
       indices: 
       edges: []

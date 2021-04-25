@@ -4,11 +4,13 @@ using UnityEngine;
 
 namespace Cobalt
 {
+	[RequireComponent(typeof(PlayerState))]
 	public class PlayerManager : MonoBehaviour
 	{
 		public static PlayerManager Instance { get; private set; }
 
 		public Player CurrentPlayer => m_player;
+		public PlayerState State { get; private set; }
 
 		public Grid Grid;
 		public GameObject SpawnPoint;
@@ -36,6 +38,11 @@ namespace Cobalt
 		{
 			Debug.Assert(Instance == this);
 			Instance = null;
+		}
+
+		private void Start()
+		{
+			State = GetComponent<PlayerState>();
 		}
 
 		private void Update()

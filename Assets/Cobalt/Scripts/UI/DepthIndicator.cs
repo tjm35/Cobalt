@@ -11,7 +11,6 @@ namespace Cobalt
 		public string Prefix = "";
 		public string Suffix = "m below sea level";
 		public string Format = "F0";
-		public float SeaLevelHeight = 48.0f;
 		public float Multiplier = 1.0f;
 
 		// Start is called before the first frame update
@@ -24,10 +23,9 @@ namespace Cobalt
 		void Update()
 		{
 			var player = PlayerManager.Instance?.CurrentPlayer;
-			if (player)
+			if (player && WaterManager.Instance)
 			{
-				var playerHeight = player.transform.position.y;
-				var displayDepth = (SeaLevelHeight - playerHeight) * Multiplier;
+				var displayDepth = WaterManager.Instance.GetDepth(player.transform) * Multiplier;
 
 				m_text.text = Prefix + displayDepth.ToString(Format) + Suffix;
 			}

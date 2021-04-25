@@ -13,7 +13,7 @@ namespace Cobalt
 		public float MoveAccel = 80.0f;
 		public InputAction MoveAction;
 
-		public float NeutralDepth = 0.0f;
+		public float NeutralDepth => PlayerManager.Instance?.State.NeutralDepth ?? 0.0f;
 		public float DepthWindowHalfSize = 40.0f;
 
 		public float VerticalDragFactor = 0.5f;
@@ -35,20 +35,36 @@ namespace Cobalt
 
 		private void FixedUpdate()
 		{
-			// Horizontally we just set a target velocity.
-			var targetVelocity = MoveDirection * MoveSpeed;
-			var velocity = m_rigidBody.velocity;
-			var xVel = velocity.x;
-			velocity.x = Mathf.SmoothDamp(m_rigidBody.velocity.x, targetVelocity.x, ref xVel, MoveSmoothTime);
-			m_rigidBody.velocity = velocity;
+			if (WaterManager.Instance)
+			{
+				float depth = WaterManager.Instance.GetDepth(transform);
 
-			// Vertically our movement is a combination of forces:
-			var depthWindowFactor = MoveAccel / DepthWindowHalfSize;
-			var springForceY = (NeutralDepth - transform.position.y) * depthWindowFactor;
-			var motiveForceY = MoveDirection.y * MoveAccel;
-			var dragForceY = -velocity.y * Mathf.Abs(velocity.y) * VerticalDragFactor;
+				if (depth < 0.0f)
+				{
+					// We're out of water - no control.
+					m_rigidBody.gravityScale = 1.0f;
+				}
+				else
+				{
+					// We're in water.
+					m_rigidBody.gravityScale = 0.0f;
 
-			m_rigidBody.AddForce(Vector2.up * (springForceY + motiveForceY + dragForceY));
+					// Horizontally we just set a target velocity.
+					var targetVelocity = MoveDirection * MoveSpeed;
+					var velocity = m_rigidBody.velocity;
+					var xVel = velocity.x;
+					velocity.x = Mathf.SmoothDamp(m_rigidBody.velocity.x, targetVelocity.x, ref xVel, MoveSmoothTime);
+					m_rigidBody.velocity = velocity;
+
+					// Vertically our movement is a combination of forces:
+					var depthWindowFactor = MoveAccel / DepthWindowHalfSize;
+					var springForceY = (depth - NeutralDepth) * depthWindowFactor;
+					var motiveForceY = MoveDirection.y * MoveAccel;
+					var dragForceY = -velocity.y * Mathf.Abs(velocity.y) * VerticalDragFactor;
+
+					m_rigidBody.AddForce(Vector2.up * (springForceY + motiveForceY + dragForceY));
+				}
+			}
 		}
 
 		private Vector2 MoveDirection => MoveAction.ReadValue<Vector2>();

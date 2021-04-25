@@ -26,9 +26,9 @@ namespace Cobalt
 		private void Update()
 		{
 			var player = PlayerManager.Instance?.CurrentPlayer;
-			if (player)
+			if (player && WaterManager.Instance)
 			{
-				float currentDepth = player.transform.position.y;
+				float currentDepth = WaterManager.Instance.GetDepth(player.transform);
 				float neutralDepth = player.GetComponent<PlayerController>().NeutralDepth;
 
 				if (Mathf.Abs(currentDepth - neutralDepth) < NeutralTolerance)
@@ -36,7 +36,7 @@ namespace Cobalt
 					m_image.sprite = NeutralSprite;
 					m_image.color = NeutralColor;
 				}
-				else if (currentDepth > neutralDepth)
+				else if (currentDepth < neutralDepth)
 				{
 					m_image.sprite = DescendingSprite;
 					m_image.color = DescendingColor;
