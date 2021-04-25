@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Cobalt/Scenes/TestScene.unity
-    guid: 0fafd0bda94a361478042a25eb14c2cd
+    path: Assets/Cobalt/Scenes/GameScene.unity
+    guid: 0748709a7398dc24881e8d95ab5d9ef4
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: dc772b676e348e744b7cf32bfef3412b, type: 2}
