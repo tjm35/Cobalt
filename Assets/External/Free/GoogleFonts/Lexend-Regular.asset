@@ -1,0 +1,433 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!28 &-8417372831678522380
+Texture2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Lexend-Regular Atlas
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 2
+  m_Width: 64
+  m_Height: 64
+  m_CompleteImageSize: 4096
+  m_MipsStripped: 0
+  m_TextureFormat: 1
+  m_MipCount: 1
+  m_IsReadable: 1
+  m_IsPreProcessed: 0
+  m_IgnoreMasterTextureLimit: 0
+  m_StreamingMipmaps: 0
+  m_StreamingMipmapsPriority: 0
+  m_VTOnly: 0
+  m_AlphaIsTransparency: 0
+  m_ImageCount: 1
+  m_TextureDimension: 2
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 0
+    m_WrapV: 0
+    m_WrapW: 0
+  m_LightmapFormat: 0
+  m_ColorSpace: 0
+  m_PlatformBlob: 
+  image data: 4096
+  _typelessdata: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030c12152014110b0200040d13152013110b0200000000000000000000000000000000000000000000000000070b0f0d080000000000000000000000000000071520272a3529261f14071521282b3528261f14060000000000000000000000000000000000000000000008131c2025221b10020000000000000000000000031525323c3f4a3e3b31241525333c404a3e3a3124140200000000000000000000000000000003090b0e0f0d182530353a372e201507000000000000000000000c2032434f5460534e42311a3344505560534e42311f0b00000000000000000000000000090a161e212324222536434a4f4b3f3225150300000000000000000012273c4f616a7569604e3b273850626a7568604e3a260b000000000000000000000002111c23283236383a3835435460645d4f4332200c000000000000000004182a3a546a7f8a7e69533f3145566a808a7e6853392816030000000000000000000a161e2f3839454b4e4f4d4b4a60727a69614f3b271200000000000000000a1f33475870859b86715d4b364b60758899846f5746321e0900000000000000000a1a2832404c505760636462605d6a7f8f7f69543f2a1400000000000000000c22374c61778a8a8f7a654f3e52677d928b8976614b36210c0000000000000008182838454b5e666f76787977756d7b8c8979634e38230e000000000000000215283852687d92808c826d584a5c70858b81917c6651362614010000000000011426364556606d7b848a8d8f8d898288917d675b4935210c00000000000000091d3245566e838e7a858a77614f64798e837c90826d5443301c080000000000081c3043546074829091888583848a989b857062513f2f1c08000000000000000b20364b60758989727d927e69586d82917c758a8874604b35200b000000000417293a4b60728398887c746f6d6f80959195806b5d4c38230f0000000000000011263b50667b90836d7689877361778a88746f848f7a654f3a2510000000000a1f3346586a7f948778676059667c8d897c8a907b65503d2d1a070000000000071b2d3e576c81927d676d82907b6a7f94806b697e93806b563d2c1a060000000c21364c6176898c7a645a4d6278898d7c687e9286715b4a36210c00000000000d22364a5c73888a7761647a8f8374878b786262788d87725b4935210c00000013283d52687d92846f5c4b586d8293806b6073878e79634e39240e00000000000f24394f64798e8570585c71868c7d93846f5a5a71868d78634e38230e000000182d43586d82927d68523e4b60747e7360546b81947f69543f2a140000000005182b3b556a7f947f6a5553697e938a917c6751566b80947f69543a2a170400001b30455a70858f7a654f3a45566068605553687d92816c56412c17000000000b2034485971868e79644e4c61768a9d8874604b4f657a8f85705847331f0a00001c31465c71868e78634e3938454b534b4451677c91826d58432d18000000000d22374d62778c88735c4a46586d818a806b55444b6074898a77614c37210c00001a30455a6f84907a65503b2832363e353953697e93816c56412c170000000316283953687e93826c573e3a52636d756b62513744556d83927d67523828150200172c41576c81947e695442312020293246576d82937e68533e2813000000091e3246576f84917c66513c354552585f565144333752677c92836e5645321d090011263b51667b908671604e40353136434b6176898d78624d38230d0000000c21364b61768a8a76614b3621353f424a403d3321374c61768b8975604b36200b000b20354b607387937e685e4e4b454b50616c8197836e5a4835200b0000000f253a4f647a85816c5746321e232a2d352b28211f3347586d82857a644f39240f00081d314455667c8d8a7c6d64605660656f7f948a79634e3c2b19060000000d22374b5d64716c63523928161016182016140e172a3a52646d71645c4a36220d00011426374c5e6a7f928c82797573757a84948b7c665b49351e0e00000000081b2e3f4b4f5b575245351b0b0001030a0100000c1c354652585b4f4a3e2d1b07000009192f4050616a7d89948e8a888a9092877b665e4d3d2c1a00000000000010202e373a46423e3527170000000000000000001727353f434639362d20100000000012223343506068767f85888988847d74655d4d40301f0f00000000000002101b2225312d2a2217090000000000000000000917232b2d3124221b10020000000004152533414e586169707374726f6860564b3f302212010000000000000000080d0f1c17150f050000000000000000000000061016181c0f0d0700000000000000071523313a474c545a5e5f5d59534b45382e211204000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005131c2a33373f45484a48443d3631271a1103000000000000000000000000000001080b11171b1d1d1b17110b0802000000000000000000000000000000000000000c171f212a303334332f28201d150a00000000000000000000000000000009141d20262d313232302c26201d150901000000000000000000000000000000000000040a0c141b1e1f1d1a130b090200000000000000000000000000000210192631353c4246484746423b3631271d1509000000000000000000000000000000000000000000000000000000000000000000000000000000000000000613202e37444b51575b5d5d5b57514b443731271909000000000000000000000000000000000a03020000000000050b0d0e0b090300000000000000000000021324313e4b5560666c707272706c6660554b4437271501000000000000000000000000080d0f201917100700020d181f2224211e160a000000000000000000102031424e5c64737c8286878785817b7469605544311d080000000000000000000002101b2225352e2b24180a161e2a3437393632281a130500000000000009192e3e4e60687a87918985838284888f887f74604b35200e0000000000000000000010202e373a4a434036281a28323b474c4e4b45383023130200000000011527374b5c687e8b887d76706e6d6f737a8384705544352b1e130500000000000000081b2e3e4b4f5f585346362838454b59626360564d4130201000000000081d314455647a8c85776860575858595d656e7460554d483c312313050000000000000d22374b5c64756e645341324556606d777975675f4d3e2e1b080000000b20354b6074878977625960676d6d686059626b6d6a625a4e413123130000000000000f253a4f647a8d826e5f4d3a4b6074828a8e897d675c4b37220d00000012273c51677c917e695960727d82827d74627781837f7868604e41301c0c00000000000d22374b5c6b81917c675847586c818c7f7b838c7a644f3a250f000000182d42586d828a77615e6d82928c888d8677859687898a7d685f4d3a2a180400000000081b2e3e4b6075878877614c61768a816c667488836e59442f190400001c31465c7186867158667c918577737883879b867275808d7d675847331f0a0000000000101e324556657b8c836e5f667b907b66566e8389735e49341e0900001e33485d7388846f5a6d828f7a655a627283998570606e828977614c37220c0000000003111c28384b5d6c81917c67677c8f7a65576d828a755f4a35200a00001d33485d7288846e5a6f858c77624c5462778a89735962788a7f6a553a2a170400000111212f383a474c6075878877647a8f7d685b6f8488725d48331d0800001b31465b70868570546e848d78634e48596f848c77625a6f8587725847331f0a00000f1f2f404c50586160657b8d836e748885746d798c816c57422c17020000192e43596e838874606a7f937e685544556a80907b65556a7f8c76614c37210c00071a2d3d4c5e657276746b6c81917c687d918682898877624d37220d00000013283e53687e8e796463788b86746053566b80947e6954687d8e79644e39240f000c21364a5b657c878c89807275878877687c8587837963594834200b0000000d22374c62778b816c5b6d829681706868748797826d58677c8f7a654f3a2510000e24394e63798b867e8195806b7b8d836e6670726e635b493b2b18050000000b203448596d828a786261758596857d7e86848b867154697f8e79634e39230e00182e43586d828a76696d828a766c81917c67595d584d493c2c1d0d0000000005182b3b4d62788a847360617581898e8d8577868a73606f848974604b35200b001d33485d7288846f58667c917b6675878877614c4138352c1e0e0000000000000d2034485a677d92817362616c767978706274756063798c826d5544311d08001f34495f7489826d58657a8f7d68657b8d836e5f4d3a2a190e0000000000000005192b3c4d5f6a7f9184776b626164635a5560606777878978624d37271501001d32475d7287856f5a677c907b665d6c81917c675947341f1000000000000000000d1d30414f616a7d898a8077716c6b696b6d747c888b7b655a483519090000172c42576c818b786b6f838a76614c6175878877614c3e2e1b070000000000000000132332434f5f6778818a8c8682807e808288908679655d4b3c2b190000000d22384d62788a878084947f6a574657657b90836e5c4a36220d000000000000000005152532414d5a626c777d8387898b8987827b73635b4b3f2e1e0e0000000b2035485a647a858a887f6a6150394c5d6b80857a644f3a240f000000000000000000071523303c484d5962686e72747574726d6660554a3d2e21110000000005192b3c4a5c6470747369615043333f51626b71645c4a36220d0000000000000000000004121e2b353b484c53595d5660565d58504b44372d1f110300000000000e1e2d3e4a4e5a5f5d544f433325344451565b4f4a3e2e1b070000000000000000000000000e19202b34373e4338454b4538433b353126190f01000000000000000f202d3639454a483f3c32251626343d41463a362e20100000000000000000000000000000050d182022282e27313631272d26201d1409000000000000000000010f1a21243035332a272015081621292b3124221b100200000000000000000000000000000000050b0d1319151d201d1518110b0801000000000000000000000000070d0f1b1f1e14120c0300040e14161c0f0d07000000000000000000000000000000000000000000000002090b09020000000000000000000000000000000000000000050a080000000000000000010600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!21 &-3598503448729542640
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Lexend-Regular Material
+  m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: -8417372831678522380}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Ambient: 0.5
+    - _Bevel: 0.5
+    - _BevelClamp: 0
+    - _BevelOffset: 0
+    - _BevelRoundness: 0
+    - _BevelWidth: 0
+    - _BumpFace: 0
+    - _BumpOutline: 0
+    - _ColorMask: 15
+    - _CullMode: 0
+    - _Diffuse: 0.5
+    - _FaceDilate: 0
+    - _FaceUVSpeedX: 0
+    - _FaceUVSpeedY: 0
+    - _GlowInner: 0.05
+    - _GlowOffset: 0
+    - _GlowOuter: 0.05
+    - _GlowPower: 0.75
+    - _GradientScale: 6
+    - _LightAngle: 3.1416
+    - _MaskSoftnessX: 0
+    - _MaskSoftnessY: 0
+    - _OutlineSoftness: 0
+    - _OutlineUVSpeedX: 0
+    - _OutlineUVSpeedY: 0
+    - _OutlineWidth: 0
+    - _PerspectiveFilter: 0.875
+    - _Reflectivity: 10
+    - _ScaleRatioA: 0.8333333
+    - _ScaleRatioB: 0.6770833
+    - _ScaleRatioC: 0.6770833
+    - _ScaleX: 1
+    - _ScaleY: 1
+    - _ShaderFlags: 0
+    - _Sharpness: 0
+    - _SpecularPower: 2
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TextureHeight: 64
+    - _TextureWidth: 64
+    - _UnderlayDilate: 0
+    - _UnderlayOffsetX: 0
+    - _UnderlayOffsetY: 0
+    - _UnderlaySoftness: 0
+    - _VertexOffsetX: 0
+    - _VertexOffsetY: 0
+    - _WeightBold: 0.75
+    - _WeightNormal: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
+    - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlowColor: {r: 0, g: 1, b: 0, a: 0.5}
+    - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_BuildTextureStacks: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+  m_Name: Lexend-Regular
+  m_EditorClassIdentifier: 
+  hashCode: -1939734583
+  material: {fileID: -3598503448729542640}
+  materialHashCode: -1950455735
+  m_Version: 1.1.0
+  m_SourceFontFileGUID: 49df1da9d4ebd69449059befdf913aa4
+  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 49df1da9d4ebd69449059befdf913aa4, type: 3}
+  m_SourceFontFile: {fileID: 0}
+  m_AtlasPopulationMode: 0
+  m_FaceInfo:
+    m_FamilyName: Lexend
+    m_StyleName: Regular
+    m_PointSize: 24
+    m_Scale: 1
+    m_LineHeight: 30
+    m_AscentLine: 24
+    m_CapLine: 17
+    m_MeanLine: 13
+    m_Baseline: 0
+    m_DescentLine: -6
+    m_SuperscriptOffset: 24
+    m_SuperscriptSize: 0.5
+    m_SubscriptOffset: -6
+    m_SubscriptSize: 0.5
+    m_UnderlineOffset: -3
+    m_UnderlineThickness: 1.1999999
+    m_StrikethroughOffset: 5.2
+    m_StrikethroughThickness: 1.1999999
+    m_TabWidth: 7
+  m_GlyphTable:
+  - m_Index: 167
+    m_Metrics:
+      m_Width: 16.484375
+      m_Height: 19.453125
+      m_HorizontalBearingX: 1.171875
+      m_HorizontalBearingY: 16.984375
+      m_HorizontalAdvance: 18.84375
+    m_GlyphRect:
+      m_X: 40
+      m_Y: 6
+      m_Width: 17
+      m_Height: 20
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 221
+    m_Metrics:
+      m_Width: 21.78125
+      m_Height: 16.796875
+      m_HorizontalBearingX: 0.59375
+      m_HorizontalBearingY: 16.796875
+      m_HorizontalAdvance: 22.96875
+    m_GlyphRect:
+      m_X: 6
+      m_Y: 6
+      m_Width: 23
+      m_Height: 17
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 672
+    m_Metrics:
+      m_Width: 0
+      m_Height: 0
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 0
+      m_HorizontalAdvance: 6.71875
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 0
+      m_Width: 0
+      m_Height: 0
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 673
+    m_Metrics:
+      m_Width: 0
+      m_Height: 0
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 0
+      m_HorizontalAdvance: 6.71875
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 0
+      m_Width: 0
+      m_Height: 0
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 675
+    m_Metrics:
+      m_Width: 0
+      m_Height: 0
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 0
+      m_HorizontalAdvance: 0
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 0
+      m_Width: 0
+      m_Height: 0
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 726
+    m_Metrics:
+      m_Width: 17.984375
+      m_Height: 17.234375
+      m_HorizontalBearingX: 1.03125
+      m_HorizontalBearingY: 17.015625
+      m_HorizontalAdvance: 20.25
+    m_GlyphRect:
+      m_X: 39
+      m_Y: 37
+      m_Width: 19
+      m_Height: 19
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 729
+    m_Metrics:
+      m_Width: 21.171875
+      m_Height: 20.9375
+      m_HorizontalBearingX: 1.078125
+      m_HorizontalBearingY: 17.046875
+      m_HorizontalAdvance: 23.328125
+    m_GlyphRect:
+      m_X: 6
+      m_Y: 34
+      m_Width: 22
+      m_Height: 22
+    m_Scale: 1
+    m_AtlasIndex: 0
+  m_CharacterTable:
+  - m_ElementType: 1
+    m_Unicode: 32
+    m_GlyphIndex: 672
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 37
+    m_GlyphIndex: 726
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 64
+    m_GlyphIndex: 729
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 81
+    m_GlyphIndex: 167
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 87
+    m_GlyphIndex: 221
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 160
+    m_GlyphIndex: 673
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 8203
+    m_GlyphIndex: 675
+    m_Scale: 1
+  m_AtlasTextures:
+  - {fileID: -8417372831678522380}
+  m_AtlasTextureIndex: 0
+  m_IsMultiAtlasTexturesEnabled: 0
+  m_UsedGlyphRects:
+  - m_X: 0
+    m_Y: 0
+    m_Width: 34
+    m_Height: 28
+  - m_X: 34
+    m_Y: 0
+    m_Width: 28
+    m_Height: 31
+  - m_X: 0
+    m_Y: 28
+    m_Width: 33
+    m_Height: 33
+  - m_X: 33
+    m_Y: 31
+    m_Width: 30
+    m_Height: 30
+  m_FreeGlyphRects:
+  - m_X: 0
+    m_Y: 61
+    m_Width: 63
+    m_Height: 2
+  - m_X: 62
+    m_Y: 0
+    m_Width: 1
+    m_Height: 31
+  - m_X: 33
+    m_Y: 28
+    m_Width: 1
+    m_Height: 3
+  m_fontInfo:
+    Name: 
+    PointSize: 0
+    Scale: 0
+    CharacterCount: 0
+    LineHeight: 0
+    Baseline: 0
+    Ascender: 0
+    CapHeight: 0
+    Descender: 0
+    CenterLine: 0
+    SuperscriptOffset: 0
+    SubscriptOffset: 0
+    SubSize: 0
+    Underline: 0
+    UnderlineThickness: 0
+    strikethrough: 0
+    strikethroughThickness: 0
+    TabWidth: 0
+    Padding: 0
+    AtlasWidth: 0
+    AtlasHeight: 0
+  atlas: {fileID: 0}
+  m_AtlasWidth: 64
+  m_AtlasHeight: 64
+  m_AtlasPadding: 5
+  m_AtlasRenderMode: 4165
+  m_glyphInfoList: []
+  m_KerningTable:
+    kerningPairs: []
+  m_FontFeatureTable:
+    m_GlyphPairAdjustmentRecords: []
+  fallbackFontAssets: []
+  m_FallbackFontAssetTable: []
+  m_CreationSettings:
+    sourceFontFileName: 
+    sourceFontFileGUID: 49df1da9d4ebd69449059befdf913aa4
+    pointSizeSamplingMode: 1
+    pointSize: 24
+    padding: 5
+    packingMode: 0
+    atlasWidth: 64
+    atlasHeight: 64
+    characterSetSelectionMode: 0
+    characterSequence: 32 - 126, 160, 8203, 8230, 9633
+    referencedFontAssetGUID: 
+    referencedTextAssetGUID: 
+    fontStyle: 0
+    fontStyleModifier: 0
+    renderMode: 4165
+    includeFontFeatures: 0
+  m_FontWeightTable:
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  fontWeights: []
+  normalStyle: 0
+  normalSpacingOffset: 0
+  boldStyle: 0.75
+  boldSpacing: 7
+  italicStyle: 35
+  tabSize: 10
