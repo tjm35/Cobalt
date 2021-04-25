@@ -147,6 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveSpeed: 50
   MoveSmoothTime: 0.05
+  MoveAccel: 240
   MoveAction:
     m_Name: Move
     m_Type: 0
@@ -259,6 +260,9 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Move
       m_Flags: 0
+  NeutralDepth: 24
+  DepthWindowHalfSize: 40
+  VerticalDragFactor: 2
 --- !u!50 &2199499654614430633
 Rigidbody2D:
   serializedVersion: 4
