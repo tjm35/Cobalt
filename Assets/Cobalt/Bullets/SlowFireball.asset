@@ -17,7 +17,7 @@ MonoBehaviour:
   plane: 0
   waitToStart: 0
   timeToPlayWhileWaiting: 0
-  lifetime: 2
+  lifetime: 1
   speed: 10
   inheritSpeedFromTransform: 0
   size: 1
