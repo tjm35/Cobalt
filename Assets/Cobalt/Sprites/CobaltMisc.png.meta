@@ -25,13 +25,34 @@ TextureImporter:
     second: SpawnPoint
   - first:
       213: -2989953321301679164
-    second: CobaltMisc_7
+    second: Ivy
   - first:
       213: 4341679757205992301
-    second: CobaltMisc_8
+    second: Powerup_Dash
   - first:
       213: -616558544353251424
-    second: Bullet_Fireball
+    second: Powerup_Bash
+  - first:
+      213: 1092031168791023573
+    second: Song_F1
+  - first:
+      213: 5849880697354573168
+    second: Song_F2
+  - first:
+      213: -3841998171868513858
+    second: Grote_F1
+  - first:
+      213: 5768071618086706210
+    second: Grote_F2
+  - first:
+      213: 3022364067330303377
+    second: Fence
+  - first:
+      213: -1496421634467405818
+    second: DoubleGlaze
+  - first:
+      213: -4252380108064772809
+    second: Capsule
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -318,10 +339,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullet_Fireball
+      name: Powerup_Bash
       rect:
         serializedVersion: 2
-        x: 23
+        x: 31
         y: 55
         width: 18
         height: 10
@@ -361,6 +382,225 @@ TextureImporter:
       bones: []
       spriteID: 52dd396e73ffdd000800000000000000
       internalID: 62486585409789221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ivy
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 92
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 5}
+        - {x: -11, y: 1}
+        - {x: -7, y: -4}
+        - {x: 7, y: -4}
+        - {x: 12, y: 1}
+        - {x: 7, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c360d4bb4d8186d0800000000000000
+      internalID: -2989953321301679164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Powerup_Dash
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 55
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6374c86cbeb04c30800000000000000
+      internalID: 4341679757205992301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Song_F1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 124
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: 10}
+        - {x: -13, y: -4}
+        - {x: -7, y: -10}
+        - {x: 8, y: -10}
+        - {x: 14, y: -3}
+        - {x: 14, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df817bef8ca72f00800000000000000
+      internalID: 1092031168791023573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Song_F2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 84
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: 10}
+        - {x: -13, y: -4}
+        - {x: -7, y: -10}
+        - {x: 8, y: -10}
+        - {x: 14, y: -3}
+        - {x: 14, y: 10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075db301083fe2150800000000000000
+      internalID: 5849880697354573168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grote_F1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 46
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: -12}
+        - {x: -16, y: 1}
+        - {x: -9, y: 12}
+        - {x: 10, y: 11}
+        - {x: 16, y: 1}
+        - {x: 14, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9b31ab40b7eaac0800000000000000
+      internalID: -3841998171868513858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grote_F2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 14
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -13, y: -12}
+        - {x: -16, y: 1}
+        - {x: -9, y: 12}
+        - {x: 10, y: 11}
+        - {x: 16, y: 1}
+        - {x: 14, y: -11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c121b739e4c0050800000000000000
+      internalID: 5768071618086706210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fence
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 4, z: 0, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195a0272b1891f920800000000000000
+      internalID: 3022364067330303377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoubleGlaze
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 92
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6006c5ba374ab3be0800000000000000
+      internalID: -1496421634467405818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Capsule
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 131
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 3, z: 0, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dacd062d28cf4c0800000000000000
+      internalID: -4252380108064772809
       vertices: []
       indices: 
       edges: []
