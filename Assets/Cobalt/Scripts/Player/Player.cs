@@ -2,6 +2,7 @@ using FMODUnity;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace Cobalt
 {
@@ -10,9 +11,25 @@ namespace Cobalt
 		[EventRef]
 		public string DeathSFX;
 
+		public InputAction RestartAction;
+
 		public void Damage()
 		{
 			m_dying = true;
+		}
+
+		private void Start()
+		{
+			RestartAction.performed += (InputAction.CallbackContext _cc) => Damage();
+		}
+
+		public void Destroy()
+		{
+			if (!string.IsNullOrEmpty(DeathSFX))
+			{
+				RuntimeManager.PlayOneShot(DeathSFX, transform.position);
+			}
+			Destroy(gameObject);
 		}
 
 		// Update is called once per frame
@@ -29,16 +46,24 @@ namespace Cobalt
 			}
 			if (m_dying)
 			{
-				if (!string.IsNullOrEmpty(DeathSFX))
+				if (PlayerManager.Instance == null || PlayerManager.Instance.Immortal == false)
 				{
-					RuntimeManager.PlayOneShot(DeathSFX, transform.position);
+					Destroy();
 				}
-				Destroy(gameObject);
 			}
+		}
+
+
+
+		private void OnEnable()
+		{
+			RestartAction.Enable();
 		}
 
 		private void OnDisable()
 		{
+			RestartAction.Disable();
+
 			if (m_registered)
 			{
 				ScreenManager.Instance?.CurrentScreen?.OnPlayerExitScreen();

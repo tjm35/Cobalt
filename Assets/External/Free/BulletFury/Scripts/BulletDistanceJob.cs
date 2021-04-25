@@ -27,9 +27,9 @@ namespace BulletFury
             }
 
             var vec = Position - container.Position;
-            var dist = (vec.x * vec.x) + (vec.y * vec.y) + (vec.z * vec.z);
+            var dist = (vec.x * vec.x) + (vec.y * vec.y);
 
-            container.Collided = dist <= (Distance * Distance) + (container.CurrentSize * container.CurrentSize) ? (byte) 1 : (byte) 0;
+            container.Collided = (dist <= (Distance + container.CurrentSize) * (Distance + container.CurrentSize)) ? (byte) 1 : (byte) 0;
             Out[index] = container;
         }
     }

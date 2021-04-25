@@ -7,6 +7,8 @@ namespace Cobalt
 	[RequireComponent(typeof(Animator))]
 	public class SpawnPoint : MonoBehaviour
 	{
+		public int ExpectedBallast = 0;
+
 		private void OnTriggerEnter2D(Collider2D collision)
 		{
 			if (collision.GetComponent<Player>())

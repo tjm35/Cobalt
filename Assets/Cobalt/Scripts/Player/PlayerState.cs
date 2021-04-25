@@ -15,6 +15,7 @@ namespace Cobalt
 		public void AddBallast(int i_count = 1)
 		{
 			BallastCount += i_count;
+			BallastCount = Mathf.Max(BallastCount, 0);
 		}
 	}
 }

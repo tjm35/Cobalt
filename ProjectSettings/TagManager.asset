@@ -41,6 +41,9 @@ TagManager:
   - name: PhotoBG
     uniqueID: 3798025469
     locked: 0
+  - name: Grid
+    uniqueID: 876832095
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

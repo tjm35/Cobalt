@@ -16,6 +16,15 @@ namespace Cobalt
 		public GameObject SpawnPoint;
 		public GameObject PlayerPrefab;
 
+#if UNITY_EDITOR
+		public bool UseDevelopmentSpawn;
+		public GameObject DevelopmentSpawnPoint;
+		public bool DevelopmentImmortal;
+		public bool Immortal => DevelopmentImmortal;
+#else
+		public bool Immortal => false;
+#endif
+
 		public void RegisterPlayer(Player i_player)
 		{
 			Debug.Assert(m_player == null, "ScreenManager is not set up to handle multiple players at once.");
@@ -43,6 +52,16 @@ namespace Cobalt
 		private void Start()
 		{
 			State = GetComponent<PlayerState>();
+#if UNITY_EDITOR
+			if (UseDevelopmentSpawn && DevelopmentSpawnPoint != null)
+			{
+				SpawnPoint = DevelopmentSpawnPoint;
+				if (DevelopmentSpawnPoint.GetComponent<SpawnPoint>())
+				{
+					State.BallastCount = DevelopmentSpawnPoint.GetComponent<SpawnPoint>().ExpectedBallast;
+				}
+			}
+#endif
 		}
 
 		private void Update()
@@ -56,7 +75,7 @@ namespace Cobalt
 				else
 				{
 					var player = Instantiate(PlayerPrefab);
-					player.transform.position = SpawnPoint.transform.position;
+					player.transform.position = new Vector3(SpawnPoint.transform.position.x, SpawnPoint.transform.position.y, 0.0f);
 					player.transform.rotation = Quaternion.identity;
 					m_respawnTimer = 5;
 				}

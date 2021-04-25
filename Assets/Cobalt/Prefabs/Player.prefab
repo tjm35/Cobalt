@@ -100,6 +100,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DeathSFX: event:/Player/Explode
+  RestartAction:
+    m_Name: Restart
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: c8238a64-2fb2-444c-b84d-7b88c48d4151
+    m_Processors: 
+    m_Interactions: Hold(duration=1)
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 06987235-d7fa-445a-b5ff-5057eebcdb12
+      m_Path: <Keyboard>/r
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Restart
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 29875f5c-f5b5-4bfa-b33b-356d30988f2d
+      m_Path: <Gamepad>/buttonNorth
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Restart
+      m_Flags: 0
 --- !u!60 &2199499654614430632
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -260,7 +284,6 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Move
       m_Flags: 0
-  NeutralDepth: 24
   DepthWindowHalfSize: 40
   VerticalDragFactor: 2
 --- !u!50 &2199499654614430633
