@@ -268,7 +268,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallastCount: 1
   CountText: {fileID: 3727600516911258976}
-  PickupSound: 
+  PickupSound: event:/Player/BallastPickup
 --- !u!61 &1327294020462016221
 BoxCollider2D:
   m_ObjectHideFlags: 0

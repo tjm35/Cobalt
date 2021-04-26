@@ -10,10 +10,21 @@ namespace Cobalt
 		public int ExpectedBallast = 0;
 		public int MinBallast = 0;
 
+		[FMODUnity.EventRef]
+		public string ActivateSound;
+
 		private void OnTriggerEnter2D(Collider2D collision)
 		{
 			if (collision.GetComponent<Player>())
 			{
+				if (PlayerManager.Instance.SpawnPoint != gameObject)
+				{
+					if (!string.IsNullOrEmpty(ActivateSound))
+					{
+						FMODUnity.RuntimeManager.PlayOneShot(ActivateSound);
+					}
+				}
+
 				PlayerManager.Instance.SpawnPoint = gameObject;
 				PlayerManager.Instance.State.BallastCount = Mathf.Max(PlayerManager.Instance.State.BallastCount, MinBallast);
 			}

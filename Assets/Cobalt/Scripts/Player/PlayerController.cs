@@ -18,6 +18,9 @@ namespace Cobalt
 
 		public float VerticalDragFactor = 0.5f;
 
+		[FMODUnity.EventRef]
+		public string SplashdownSound;
+
 		private void Start()
 		{
 			m_rigidBody = GetComponent<Rigidbody2D>();
@@ -67,8 +70,25 @@ namespace Cobalt
 			}
 		}
 
+		private void Update()
+		{
+			float depth = WaterManager.Instance.GetDepth(transform);
+			if (m_lastDepth.HasValue && m_lastDepth.Value * depth < 0.0f && m_splashCooldown < 0.1f)
+			{
+				if (!string.IsNullOrEmpty(SplashdownSound))
+				{
+					FMODUnity.RuntimeManager.PlayOneShot(SplashdownSound);
+				}
+				m_splashCooldown = 1.0f;
+			}
+			m_splashCooldown = Mathf.Max(0.0f, m_splashCooldown - Time.deltaTime);
+			m_lastDepth = depth;
+		}
+
 		private Vector2 MoveDirection => MoveAction.ReadValue<Vector2>();
 
 		private Rigidbody2D m_rigidBody;
+		private float? m_lastDepth;
+		private float m_splashCooldown = 0.0f;
 	}
 }

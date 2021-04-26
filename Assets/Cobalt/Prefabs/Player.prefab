@@ -286,6 +286,7 @@ MonoBehaviour:
       m_Flags: 0
   DepthWindowHalfSize: 40
   VerticalDragFactor: 2
+  SplashdownSound: event:/Player/Splashdown
 --- !u!50 &2199499654614430633
 Rigidbody2D:
   serializedVersion: 4
